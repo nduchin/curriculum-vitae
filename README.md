@@ -10,14 +10,15 @@
 - [ ] Page aligns view center;
 - <details><summary>Semantic layout</summary>
 
-    > - [ ] page contains `article, aside, figure, figcaption, footer, header, main, nav, section, h1-h6` (at least 10 of them)
+    > - [ ] page contains `article, aside, figure, figcaption, footer, header, 
+    main, nav, section, h1-h6` (at least 10 of them)
 </details>
 
 - [ ] Correct display at Google Chrome latest version;
 - [ ] Page footer contains github link, year of issue, rsschool course logo.
 - <details><summary>CSS appearance</summary>
 
-    > - [ ] at least 10 diffrent css styled elements
+    > - [x] at least 10 diffrent css styled elements
 </details>
 
 - <details><summary>Adaptive layout</summary>
@@ -70,10 +71,10 @@
 - 12.12.2022 - complete html base structure
 - 13.12.2022 - complete html block modell
 - 13.12.2022 - fix html/css wrapper class
+- 14.12.2022 - complete html typography 
 
 ### Issues:
 - complete html components
-- complete html typography 
 - complete html appearance
 - complete html actions/animations
 - fill page with data
