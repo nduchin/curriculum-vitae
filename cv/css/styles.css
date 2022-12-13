@@ -2,13 +2,13 @@ html {
   box-sizing: border-box;
   margin: 0;
   width: 100%;
-  height: 100%;
 }
 
 * {
   display: inline-block;
   box-sizing: inherit;
   margin: 0;
+  border: 1px solid lightblue;
 }
 
 title,
@@ -27,13 +27,12 @@ li {
 body {
   margin: 0;
   width: 100%;
-  height: 100%;
 }
 
 /*Box handlers start*/
 /*Canvas strat*/
 
-.canvas {
+.canvas-main, .canvas-footer {
   width: 100%;
   align-items: center;
 }
@@ -41,7 +40,7 @@ body {
 /*Canvas end*/
 /*Wrapper start*/
 /*common wrappers*/
-.wrapper[type="page"] {
+.wrapper-page {
   width: 1280px;
   margin: 0 auto;
   align-self: center;
@@ -49,39 +48,39 @@ body {
   flex-direction: row;
 }
 
-.wrapper[type="scroll"] {
+.wrapper-scroll {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
 
-.wrapper[type="pillar"] {
+.wrapper-pillar {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.wrapper[type="stretch-col"] {
+.wrapper-stretch-col {
   display: flex;
   flex-direction: column;
   height: 100%;
   justify-content: space-between;
 }
 
-.wrapper[type="line"] {
+.wrapper-line {
   display: flex;
   flex-direction: row;
   width: 100%;
 }
 
-.wrapper[type="stretch-row"] {
+.wrapper-stretch-row {
   display: flex;
   flex-direction: row;
   width: 100%;
   justify-content: space-between;
 }
 
-.wrapper[type="flex-grid"] {
+.wrapper-flex-grid {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -93,7 +92,7 @@ body {
 
 /*specified wrappers*/
 
-.wrapper[type="nav"] {
+.wrapper-nav {
   position: fixed;
   width: 300px;
   height: min(calc(100vh - 200px), 660px);
@@ -103,20 +102,20 @@ body {
   padding: 30px 10px 30px 40px;
 }
 
-.wrapper[type="section"] {
+.wrapper-section {
   display: flex;
   flex-direction: column;
   padding: 20px 40px;
   gap: 30px;
 }
 
-.wrapper[type="section-caption"] {
+.wrapper-section-caption {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.wrapper[type="section-content"] {
+.wrapper-section-content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -173,7 +172,7 @@ body {
   gap: 50px;
 }
 
-.list-elem>.wrapper[type="scroll"] {
+.list-elem>.wrapper-scroll {
   gap: 10px;
 }
 
@@ -201,7 +200,7 @@ body {
   flex-grow: 1;
 }
 
-.list-elem>.wrapper[type="pillar"] {
+.list-elem>.wrapper-pillar {
   width: 300px;
   align-items: center;
   gap: 10px;
