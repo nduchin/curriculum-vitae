@@ -1,0 +1,249 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  display: inline-block;
+  box-sizing: inherit;
+  margin: 0;
+}
+
+title,
+script {
+  display: none;
+}
+
+ul {
+  padding-inline-start: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*Box handlers start*/
+/*Canvas strat*/
+
+.canvas {
+  width: 100%;
+  align-items: center;
+}
+
+/*Canvas end*/
+/*Wrapper start*/
+/*common wrappers*/
+.wrapper[type="page"] {
+  width: 1280px;
+  margin: 0 auto;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.wrapper[type="scroll"] {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.wrapper[type="pillar"] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper[type="stretch-col"] {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.wrapper[type="line"] {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.wrapper[type="stretch-row"] {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.wrapper[type="flex-grid"] {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  align-self: center;
+  row-gap: 40px;
+}
+
+/*specified wrappers*/
+
+.wrapper[type="nav"] {
+  position: fixed;
+  width: 300px;
+  height: min(calc(100vh - 200px), 660px);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px 10px 30px 40px;
+}
+
+.wrapper[type="section"] {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
+  gap: 30px;
+}
+
+.wrapper[type="section-caption"] {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.wrapper[type="section-content"] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 140px;
+}
+
+#data-wrapper {
+  padding-left: 300px;
+}
+
+#header-row {
+  align-items: center;
+}
+
+#contacts-line1 {
+  padding: 10px;
+  gap: 10px;
+}
+
+#contacts-line2 {
+  padding: 10px;
+}
+
+#skills-content {
+  gap: 50px;
+}
+
+#skills-hs-block,
+#skills-ss-block,
+#skills-lang-block {
+  gap: 30px;
+}
+
+.skill-component {
+  display: block;
+  width: 220px;
+  height: 75px;
+  text-align: center;
+  border: 1px solid green;
+  border-radius: 30px;
+}
+
+.list {
+  gap: 20px;
+}
+
+.list-elem {
+  padding: 20px 0;
+  align-items: center;
+  gap: 10px;
+}
+
+#courses-list .list-elem {
+  gap: 50px;
+}
+
+.list-elem>.wrapper[type="scroll"] {
+  gap: 10px;
+}
+
+.ed-elem-year {
+  width: 180px;
+  text-align: center;
+}
+
+.ed-elem-name {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.ed-elem-qual {
+  width: 180px;
+  text-align: center;
+}
+
+.em-elem-year {
+  width: 100px;
+  text-align: center;
+}
+
+.em-elem-name {
+  flex-grow: 1;
+}
+
+.list-elem>.wrapper[type="pillar"] {
+  width: 300px;
+  align-items: center;
+  gap: 10px;
+}
+
+#code-content {
+  gap: 15px;
+}
+
+.code-component {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 70px;
+  padding: 0 20px;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid green;
+  border-radius: 35px;
+}
+
+.project-component {
+  display: block;
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  border: 1px solid green;
+  border-radius: 30px;
+}
+
+#footer-wrapper {
+  padding: 20px 40px 40px;
+  align-items: center;
+}
+
+#footer-gh-logo {
+  margin-right: 10px;
+}
+
+/*Wrapper end*/
+/*Box handlers end*/
+
+h3 {
+  align-self: center;
+}
