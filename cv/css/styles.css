@@ -1,5 +1,44 @@
+/*Preset styles*/
+:root {
+  /*Font styles*/
+  --font-title: normal 400 120px/160px 'Pantherdam Signature';
+  --font-section-caption: normal 400 80px/100px 'Pantherdam Signature';
+  --font-second-caption: normal 400 36px/43px 'Afterglow';
+  --font-third-caption: normal 400 24px/29px 'Afterglow';
+  --font-nav-menu: normal 400 30px/36px 'Afterglow';
+  --font-regular: normal 400 28px/34px 'Barlow';
+  --font-descr-32px-light: normal 400 32px/28px 'Barlow';
+  --font-descr-24px: normal 400 24px/29px 'Barlow';
+  --font-descr-24px-light: normal 400 24px/29px 'Barlow';
+  --font-descr-24px-bold: normal 400 24px/29px 'Barlow';
+  --font-link: italic 400 26px/31px 'Barlow';
+  --font-code: normal 400 14px/16px 'Consolas';
+  --font-tablet-title: normal 400 80px/100px 'Pantherdam Signature';
+  --font-tablet-section-caption: normal 400 60px/80px 'Pantherdam Signature';
+  --font-mobile-title: normal 400 60px/80px 'Pantherdam Signature';
+  --font-mobile-section-caption: normal 400 44px/53px 'Aftorglow';
+  --font-mobile-second-caption: normal 400 32px/38px 'Afterglow';
+  --font-mobile-regular: normal 400 22px/26px 'Barlow';
+  --font-mobile-link: italic 400 20px/24px 'Barlow';
+  /*Color styles*/
+  --color-back1: #cdcdcd;
+  --color-back2: #e1d5d2;
+  --color-back3: #ede9e8;
+  --color-back4: #7a5f5f;
+  --color-text1: #000000;
+  --color-text2: #260c06;
+  --color-obj1: #260c06;
+  --color-obj2: #7a5f5f;
+  --color-obj3: #878787;
+  --color-obj4: #ff9a00;
+  --color-obj5: #000000;
+  --color-obj6: #554747;
+  --color-add1: rgba(205, 205, 205, 0.8);
+  /*Border styles*/
+  --bord-style1: #5px solid var(var(--color-obj6))
+}
+
 html {
-  box-sizing: border-box;
   margin: 0;
   width: 100%;
 }
@@ -8,11 +47,9 @@ html {
   display: inline-block;
   box-sizing: inherit;
   margin: 0;
-  border: 1px solid lightblue;
 }
 
-title,
-script {
+head, script {
   display: none;
 }
 
@@ -24,7 +61,12 @@ li {
   list-style-type: none;
 }
 
+a{
+  text-decoration: none;
+}
+
 body {
+  box-sizing: border-box;
   margin: 0;
   width: 100%;
 }
@@ -32,9 +74,15 @@ body {
 /*Box handlers start*/
 /*Canvas strat*/
 
-.canvas-main, .canvas-footer {
+.canvas-main {
   width: 100%;
   align-items: center;
+  background-color: var(--color-back1);
+}
+.canvas-footer {
+  width: 100%;
+  align-items: center;
+  background-color: var(--color-back4);
 }
 
 /*Canvas end*/
@@ -128,6 +176,10 @@ body {
 
 #header-row {
   align-items: center;
+}
+
+#about{
+  gap: 100px;
 }
 
 #contacts-line1 {
@@ -245,4 +297,65 @@ body {
 
 h3 {
   align-self: center;
+}
+
+/*Styles*/
+.nav_element{
+  font: var(--font-nav-menu);
+  color: var(--color-text2);
+}
+.title{
+  font: var(--font-title);
+  color: var(--color-text2);
+}
+h2{
+  font: var(--font-section-caption);
+  color: var(--color-text2);
+}
+#about-text{
+  font: var(--font-regular);
+  color: var(--color-text2);
+}
+.contact-line-link{
+  font: var(--font-link);
+  text-decoration: underline;
+  color: var(--color-text2);
+}
+.contact-pil-link{
+  font: var(--font-descr-32px-light);
+  color: var(--color-text2);
+}
+h3{
+  font: var(--font-second-caption);
+  color: var(--color-text2);
+}
+.ed-elem-year, .em-elem-year{
+  font: var(--font-third-caption);
+  color: var(--color-text2);
+  text-align: center;
+}
+.ed-elem-name, .ed-elem-qual,
+.em-elem-name, .em-elem-pos-name{
+  font: var(--font-regular);
+  color: var(--color-text2);
+  text-align: center;
+}
+.cr-elem-name{
+  font: var(--font-regular);
+  color: var(--color-text2);
+  text-align: left;
+}
+.cr-elem-desc{
+  font: var(--font-descr-24px-light);
+  color: var(--color-text1);
+  text-align: left;
+}
+.em-elem-pos-desc{
+  font: var(--font-descr-24px-light);
+  color: var(--color-text1);
+  text-align: center;
+}
+#footer-wrapper>*{
+  font: var(--font-descr-24px);
+  color: var(--color-text1);
 }
