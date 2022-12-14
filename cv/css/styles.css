@@ -190,14 +190,18 @@ body {
 #about {
   gap: 100px;
 }
-
-#contacts-line1 {
-  padding: 10px;
-  gap: 10px;
+#contacts-list{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  row-gap: 40px;
+  column-gap: 10px;
 }
-
-#contacts-line2 {
-  padding: 10px;
+.cont-elem-line{
+  grid-column: 3 span;
+}
+.cont-elem-pillar{
+  grid-column: 2 span;
 }
 
 #skills-content {
