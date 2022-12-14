@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2020 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="64px" height="64px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 27.66 27.66"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil3 {fill:#3E201A}
+    .fil0 {fill:#554747}
+    .fil4 {fill:#878787}
+    .fil1 {fill:#CDCDCD}
+    .fil2 {fill:#FF9A00}
+   ]]>
+  </style>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2430935998064">
+   <path class="fil0" d="M0 13.83c0,7.64 6.19,13.83 13.83,13.83 7.64,0 13.83,-6.19 13.83,-13.83 0,-7.64 -6.19,-13.83 -13.83,-13.83 -7.64,0 -13.83,6.19 -13.83,13.83z"/>
+   <polygon class="fil1" points="16.66,4.9 20.53,8.76 16.66,8.76 "/>
+   <path class="fil1" d="M7.77 4.9l7.82 0 0 4.41c0,0.29 0.24,0.53 0.53,0.53l4.41 0.01 0 12.28c0,0.35 -0.29,0.63 -0.64,0.63l-12.12 0c-0.35,0 -0.64,-0.28 -0.64,-0.63l0 -16.59c0,-0.35 0.29,-0.64 0.64,-0.64z"/>
+   <rect class="fil2" x="13.83" y="11.01" width="5.4" height="5.1" rx="0.15" ry="1.28"/>
+   <rect class="fil2" x="13.83" y="17.03" width="5.4" height="3.09" rx="0.25" ry="1.28"/>
+   <circle class="fil3" transform="matrix(0 1 -1 0 12.4106 11.5477)" r="0.54"/>
+   <circle class="fil3" transform="matrix(0 1 -1 0 12.4106 17.5746)" r="0.54"/>
+   <g>
+    <rect class="fil0" x="8.43" y="19.04" width="2.56" height="1.08" rx="0.17" ry="0.64"/>
+    <rect class="fil0" x="8.43" y="17.03" width="2.56" height="1.08" rx="0.17" ry="0.64"/>
+   </g>
+   <g>
+    <rect class="fil0" x="8.43" y="15.03" width="2.56" height="1.08" rx="0.17" ry="0.64"/>
+    <rect class="fil0" x="8.43" y="13.02" width="2.56" height="1.08" rx="0.17" ry="0.64"/>
+    <rect class="fil0" x="8.43" y="11.01" width="2.56" height="1.08" rx="0.17" ry="0.64"/>
+   </g>
+   <g>
+    <rect class="fil4" x="14.62" y="19.04" width="3.83" height="1.08" rx="0.25" ry="0.64"/>
+    <rect class="fil4" x="14.62" y="17.03" width="3.83" height="1.08" rx="0.25" ry="0.64"/>
+   </g>
+   <g>
+    <rect class="fil4" x="14.62" y="15.03" width="3.83" height="1.08" rx="0.25" ry="0.64"/>
+    <rect class="fil4" x="13.83" y="13.02" width="5.4" height="1.08" rx="0.35" ry="0.64"/>
+    <rect class="fil4" x="14.62" y="11.01" width="3.83" height="1.08" rx="0.25" ry="0.64"/>
+   </g>
+  </g>
+ </g>
+</svg>
