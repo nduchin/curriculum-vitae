@@ -52,30 +52,36 @@
 - <a href="https://github.com/nduchin/rsschool-cv/tree/gh-pages">**PAGES**</a> - deployment branch
 - <a href="https://github.com/nduchin/rsschool-cv/tree/rsschool-cv-html">**RSSCHOOL-CV**</a>  - html branch
 - <a href="https://github.com/nduchin/rsschool-cv/tree/cv-html-css">**HTML-CSS**</a> - css layout branch
+- <a href="https://github.com/nduchin/rsschool-cv/tree/cv-html-css-BUG">**BUG-HTML-CSS**</a> - **Warning** buged branch, see <a href="https://github.com/nduchin/rsschool-cv#issues-1">HTML-Issues</a> 
 
 ## <a href="https://www.figma.com/file/pggQrCT6jXno7tOsK6uqcq/CV-Duchin?node-id=0%3A1&t=CzXEsWFBygMLD8IL-1">**Figma design**</a>:
 
 ### Log :
+
 - 10.12.2022 - start design
 - 11.12.2022 - complete desktop, tablet, mobile design
 - 12.12.2022 - complete components design
 - 13.12.2022 - refactor desktop header/nav menu
 
 ### Issues:
+
 - complete index typography
 
 ## **HTML development**:
 
 ### Log:
+
 - 11.12.2022 - complete html skeleton 
 - 12.12.2022 - complete html base structure
 - 13.12.2022 - complete html block modell
 - 13.12.2022 - fix html/css wrapper class
 - 14.12.2022 - complete html typography 
+- 14.12.2022 - complete html appearance
 
 ### Issues:
+
+- **Warning** **1 BUG to fix:** at index.html 125->159 - rewrite ul > div > li section 
 - complete html components
-- complete html appearance
 - complete html actions/animations
 - fill page with data
 
