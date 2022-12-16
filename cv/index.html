@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="./css/fonts.css">
   <link rel="stylesheet" href="./css/styles.css">
   <link rel="icon" type="image/x-icon" href="./img/svg/icon.svg">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
   <title>Nikita Dukhin</title>
 </head>
 
@@ -314,17 +316,31 @@
             </div>
             <div id="code-content" class="wrapper-section-content">
               <div class="code-component">
-                <p>Code example 1</p>
-                <img src="#!" alt="expand_logo">
+                <div class="code-lable">
+                  <p class="code-caption">Code example 1</p>
+                  <img src="./img/svg/page/bracket_show.svg" width="59" alt="expand_logo">  
+                </div>
               </div>
               <div class="code-component">
-                <p>Code example 2</p>
-                <img src="#!" alt="expand_logo">
+                <div class="code-lable">
+                  <p class="code-caption">Code example 1</p>
+                  <img src="./img/svg/page/bracket_show.svg" width="59" alt="expand_logo">  
+                </div>
+                <div class="code-container">
+                  <pre><code>function isPrime(num){
+  if (num<=0||num==1||num%1!=0){return false}
+  for (let i=2;i<=Math.sqrt(num);){
+    if (num%i==0) return false;
+    i==2 ? i+=1 : i+=2
+  };
+  return true;
+};</code></pre>
+                </div>
               </div>
               <div class="code-component">
-                <p>Code example 3</p>
-                <div class="img">
-                  <img src="#!" alt="expand_logo">
+                <div class="code-lable">
+                  <p class="code-caption">Code example 1</p>
+                  <img src="./img/svg/page/bracket_show.svg" width="59" alt="expand_logo">  
                 </div>
               </div>
             </div>
@@ -365,6 +381,7 @@
       </div>
     </footer>
   </div>
+  <script>hljs.highlightAll();</script>
   <script src="./lib/comp/component.js"></script>
 </body>
 

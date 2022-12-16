@@ -7,10 +7,10 @@
   --font-third-caption: normal 400 24px/29px 'Afterglow';
   --font-nav-menu: normal 400 30px/36px 'Afterglow';
   --font-regular: normal 400 28px/34px 'Barlow';
-  --font-descr-32px-light: normal 400 32px/28px 'Barlow';
+  --font-descr-32px-light: normal 300 32px/28px 'Barlow';
   --font-descr-24px: normal 400 24px/29px 'Barlow';
-  --font-descr-24px-light: normal 400 24px/29px 'Barlow';
-  --font-descr-24px-bold: normal 400 24px/29px 'Barlow';
+  --font-descr-24px-light: normal 300 24px/29px 'Barlow';
+  --font-descr-24px-bold: normal 700 24px/29px 'Barlow';
   --font-link: italic 400 22px/26.4px 'Barlow';
   --font-code: normal 400 14px/16px 'Consolas';
   --font-tablet-title: normal 400 80px/100px 'Pantherdam Signature';
@@ -279,14 +279,22 @@ body {
 
 .code-component {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 100%;
-  height: 70px;
-  padding: 0 20px;
+  height: auto;
+  padding: 0 10px;
+  align-items: center;
+  border-radius: 35px;
+  row-gap: 10px;
+}
+.code-lable{
+  display: flex;
+  flex-direction: row;
+  padding: 0 10px;
+  width: 100%;
+  height: 50px;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid green;
-  border-radius: 35px;
 }
 
 .project-component {
@@ -520,4 +528,26 @@ h3 {
 
 .footer-pic {
   height: 40px;
+}
+
+.code-caption{
+  font: var(--font-descr-24px-bold);
+  color: var(--color-text2);
+}
+
+.code-component{
+  background-color: var(--color-back2);
+  border: 2px solid var(--color-obj6);
+}
+.code-container{
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  text-align: left;
+  background-color: var(--color-back3);
+  border: 2px solid var(--color-obj6);
+  border-radius: 25px;
+}
+code{
+  background: none !important;
 }
