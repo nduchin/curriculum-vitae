@@ -1,0 +1,39 @@
+<svg width="203" height="29" viewBox="0 0 203 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+<title>Language Component</title>
+<desc>Could be used to illustrate some language skill. Designed and compose by @nduchin</desc>
+<style>
+  .text1{
+    font-family: 'Afterglow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    fill:black;
+    alignment-baseline:central;
+  }
+  .text2{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    fill:black;
+    alignment-baseline:central;
+  }
+  .block{
+    width:15; 
+    height:15; 
+    stroke:#554747;
+  }
+  .block1{
+    fill:#FF9A00
+  }
+  .block2{
+    fill:#878787
+  }
+</style>
+<text class="text1" x="0" y="15" 
+  >Language :</text>
+<text class="text2" x="116" y="15" 
+  >Native</text>
+</svg>

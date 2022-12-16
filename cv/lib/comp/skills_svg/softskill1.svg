@@ -1,0 +1,41 @@
+<svg width="206" height="29" viewBox="0 0 206 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+<title>Softskill Component</title>
+<desc>Could be used to illustrate some skill data. Designed and compose by @nduchin</desc>
+<style>
+  .text{
+      font-family: 'Afterglow';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 29px;
+      fill:black;
+      alignment-baseline:central;
+    }
+    .block{
+      width:15; 
+      height:15; 
+      stroke:#554747;
+    }
+    .block1{
+      fill:#FF9A00
+    }
+    .block2{
+      fill:#878787
+    }
+</style>
+<text class="text" x="0" y="15" 
+  >Skillname</text>
+<g clip-path="url(#clip0_41_465)">
+  <rect class="block block1" x="131" y="7" width="15" height="15"/>
+  <rect class="block block1" x="146" y="7" width="15" height="15"/>
+  <rect class="block block1" x="161" y="7" width="15" height="15"/>
+  <rect class="block block2" x="176" y="7" width="15" height="15"/>
+  <rect class="block block2" x="191" y="7" width="15" height="15"/>
+</g>
+<rect x="131.5" y="7.5" width="74" height="14" rx="7" stroke="#260C06" />
+<defs>
+  <clipPath id="clip0_41_465">
+    <rect x="131" y="7" width="75" height="15" rx="7.5"/>
+  </clipPath>
+</defs>
+</svg>
