@@ -1,14 +1,16 @@
 # **CV Nikita Dukhin**
 
-<a href="https://nduchin.github.io/rsschool-cv/cv/" target="_blank">Deploy</a>
+|<a href="https://nduchin.github.io/rsschool-cv/cv/">Deploy</a>| |<a href="#tasks">Tasks</a>| |<a href="#branches">Branches</a>| |<a href="#figma-design">Design</a>| |<a href="#html-development">HTML</a>| |<a href="#content">Content</a>|
 
 <img src="./icon.svg" alt="page_img" width="250">
+
+---
 
 ## <a href="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/cv-stage1.md">**Tasks**</a>:
 
 <details><summary><span style="font-size:1.3rem; font-weight: 600;">Task CV-stage0</span></summary>
 
-  #### <a href="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/cv-stage1.md">**LEARN MORE:**</a>
+  <a href="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/cv-stage1.md">**LEARN MORE:**</a>
 
   - [ ] Valid layout:
     > - [ ] Shoudl return no errors or warnings at <a href="https://validator.w3.org/" target="_blank">validator</a>
@@ -32,7 +34,7 @@
 
 <details><summary><span style="font-size:1.3rem; font-weight: 600;">Task CV-stage1</span></summary>
 
-  #### <a href="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/cv-stage1.md">**LEARN MORE:**</a>
+  <a href="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/cv-stage1.md">**LEARN MORE:**</a>
 
   - [ ] Valid layout:
     > - [ ] Shoudl return no errors or warnings at <a href="https://validator.w3.org/" target="_blank">validator</a>
@@ -64,12 +66,16 @@
 
 </details>
 
+---
+
 ## <a href="https://github.com/nduchin/rsschool-cv/branches">**Branches**</a>:
 - <a href="https://github.com/nduchin/rsschool-cv/tree/main">**MAIN**</a> - main project branch
 - <a href="https://github.com/nduchin/rsschool-cv/tree/gh-pages">**PAGES**</a> - deployment branch
 - <a href="https://github.com/nduchin/rsschool-cv/tree/rsschool-cv-html">**RSSCHOOL-CV**</a>  - html branch
 - <a href="https://github.com/nduchin/rsschool-cv/tree/cv-html-css">**HTML-CSS**</a> - css layout branch
 - <a href="https://github.com/nduchin/rsschool-cv/tree/cv-html-comp">**COMPONENT**</a> - component branch
+
+---
 
 ## <a href="https://www.figma.com/file/pggQrCT6jXno7tOsK6uqcq/CV-Duchin?node-id=0%3A1&t=CzXEsWFBygMLD8IL-1" target="_blank">**Figma design**</a>:
 
@@ -80,12 +86,13 @@
 - 12.12.2022 - complete components design
 - 13.12.2022 - refactor desktop header/nav menu
 
----
 
 ### Issues:
 
 - complete index typography
 - complete component animations
+
+---
 
 ## **HTML development**:
 
@@ -98,18 +105,39 @@
 - 14.12.2022 - complete html typography 
 - 14.12.2022 - complete html appearance
 - 14.12.2022 - fix BUG at index.html : rewrite contact section
-- 17.12.2022 - component `work in progress`
+- 17.12.2022 - complete html components
 
----
 
 ### Issues:
 
-- complete html components
 - complete html actions/animations
-- fill page with data
+- complete adaptive UI
 
-## <a href="https://nduchin.github.io/rsschool-cv/cv/" target="_blank">**Deployment**</a>:
+---
+
+## **Content**
+
+### Log:
+- 17.12.2022 complete hard-skill elements
+
+### Issues:
+- complete about section
+- complete contacts section
+- complete skills section
+  > - complete soft-skills
+  > - complete languages
+- complete education section
+- complete courses section
+- complete employment section
+- complete code section
+- complete projects section
+- add external links
+
+---
+
+## <a href="https://nduchin.github.io/rsschool-cv/cv/">**Deployment**</a>:
 
 ### Log:
 - 13.12.2022 initiate page deployment
 - 14.12.2022 appearanced page deployed
+- 17.12.2022 svg components deployed
