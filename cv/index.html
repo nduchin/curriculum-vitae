@@ -133,7 +133,7 @@
                   </a>
                 </li>
                 <li class="contacts-elem cont-elem-line">
-                  <a href="https://t.me/nduchin" class="contact-line-link wrapper-stretch-row target="_blank">
+                  <a href="https://t.me/nduchin" class="contact-line-link wrapper-stretch-row" target="_blank">
                     <img src="./img/svg/media/telegram_svg.svg" alt="telegram_svg">
                     <span>@nduchin</span>
                   </a>
@@ -270,8 +270,8 @@
                 </div>
                 <div class="code-container">
                   <pre><code>function isPrime(num){
-  if (num<=0||num==1||num%1!=0){return false}
-  for (let i=2;i<=Math.sqrt(num);){
+  if (num&lt;=0||num==1||num%1!=0){return false}
+  for (let i=2;i&lt;=Math.sqrt(num);){
     if (num%i==0) return false;
     i==2 ? i+=1 : i+=2
   };
