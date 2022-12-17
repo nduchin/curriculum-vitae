@@ -110,9 +110,9 @@
               </div>
             </div>
             <div class="wrapper-section-content">
-              <p id="about-text">Hi! I'm Nikita, student of Front-End/JavaScript 
-                development at Rolling-Scopes School. I worked in higher education 
-                institution and have expirience of teaching, organization work, project control, 
+              <p id="about-text">Hi! I'm Nikita, student of Front-End/JavaScript
+                development at Rolling-Scopes School. I worked in higher education
+                institution and have expirience of teaching, organization work, project control,
                 business correspondence, team work. After Envenronment design graduation i made a decision to learn
                 something else, and start lerning JavaScript.</p>
             </div>
@@ -145,13 +145,15 @@
                   </a>
                 </li>
                 <li class="contacts-elem cont-elem-pillar">
-                  <a href="https://discordapp.com/users/nduchin" class="wrapper-pillar contact-pil-link" target="_blank">
+                  <a href="https://discordapp.com/users/nduchin" class="wrapper-pillar contact-pil-link"
+                    target="_blank">
                     <img src="img/svg/media/discord-mark-black.svg" alt="discord-img">
                     discord
                   </a>
                 </li>
                 <li class="contacts-elem cont-elem-pillar">
-                  <a href="https://www.codewars.com/users/nduchin" class="wrapper-pillar contact-pil-link" target="_blank">
+                  <a href="https://www.codewars.com/users/nduchin" class="wrapper-pillar contact-pil-link"
+                    target="_blank">
                     <img src="./img/svg/media/Codewars_logo.svg" alt="linkedin-img">
                     Codewars
                   </a>
@@ -200,7 +202,8 @@
                 <li class="wrapper-scroll list-elem-wrap">
                   <div class="wrapper-line list-elem">
                     <p class="ed-elem-year">2018 - 2021</p>
-                    <p class="ed-elem-name">Non-profit organization of high education «Moskow Art-Industrial Institute»</p>
+                    <p class="ed-elem-name">Non-profit organization of high education «Moskow Art-Industrial Institute»
+                    </p>
                     <p class="ed-elem-qual">Bachelor of environment design</p>
                   </div>
                 </li>
@@ -219,7 +222,8 @@
                 <li class="wrapper-scroll list-elem-wrap">
                   <div class="wrapper-line list-elem">
                     <div class="wrapper-scroll">
-                      <p class="cr-elem-name">RSSchool JavaScript/Front-End Stage0  <span style="opacity: 30%; font-weight: 700;">in progress</span></p>
+                      <p class="cr-elem-name">RSSchool JavaScript/Front-End Stage0 <span
+                          style="opacity: 30%; font-weight: 700;">in progress</span></p>
                       <p class="cr-elem-desc">Elementary class of JS/FE</p>
                     </div>
                   </div>
@@ -239,7 +243,8 @@
                 <li class="wrapper-scroll list-elem-wrap">
                   <div class="wrapper-line list-elem">
                     <p class="em-elem-year">2018 - 2022</p>
-                    <p class="em-elem-name">Non-profit organization of high education «Moskow Art-Industrial Institute»</p>
+                    <p class="em-elem-name">Non-profit organization of high education «Moskow Art-Industrial Institute»
+                    </p>
                     <div class="wrapper-pillar">
                       <p class="em-elem-pos-name">College lecturer</p>
                       <p class="em-elem-pos-desc">Lecturer of computer technology in design.</p>
@@ -259,13 +264,9 @@
             <div id="code-content" class="wrapper-section-content">
               <div class="code-component">
                 <div class="code-lable">
-                  <p class="code-caption">Code example 1</p>
-                  <img src="./img/svg/page/bracket_show.svg" width="59" alt="expand_logo">
-                </div>
-              </div>
-              <div class="code-component">
-                <div class="code-lable">
-                  <p class="code-caption">Code example 1</p>
+                  <p class="code-caption">Codewars task <a
+                    href="https://www.codewars.com/kata/5262119038c0985a5b00029f" target="_blank"
+                    rel="noopener noreferrer" style="text-decoration: underline;">Gap in primes</a></p>
                   <img src="./img/svg/page/bracket_show.svg" width="59" alt="expand_logo">
                 </div>
                 <div class="code-container">
@@ -281,8 +282,33 @@
               </div>
               <div class="code-component">
                 <div class="code-lable">
-                  <p class="code-caption">Code example 1</p>
+                  <p class="code-caption">Codewars task <a
+                      href="https://www.codewars.com/kata/561e9c843a2ef5a40c0000a4" target="_blank"
+                      rel="noopener noreferrer" style="text-decoration: underline;">Is a number prime?</a></p>
                   <img src="./img/svg/page/bracket_show.svg" width="59" alt="expand_logo">
+                </div>
+                <div class="code-container">
+                  <pre><code>function gap(g, m, n) {
+  function isPrime(n){
+    if (n%1!=0){return false}
+    for (let i=2;i&lt;Math.sqrt(n)+1;){
+      if (n%i==0) return false;
+      i==2 ? i+=1 : i+=2
+    };
+    return true;
+  };
+  function nextPrime(n){
+    let i=n+1;
+    while(!isPrime(i)){i++}
+    return i
+  }
+  let pr = [nextPrime(m-1),nextPrime(nextPrime(m-1))]
+  for(;pr[1]&lt;=n;pr[0]=pr[1]){
+    pr[1]=nextPrime(pr[0])
+    if (pr[1]-pr[0]==g){return [pr[0],pr[1]]}
+  }
+  return null
+};</code></pre>
                 </div>
               </div>
             </div>
@@ -310,7 +336,7 @@
   <div class="canvas-footer">
     <footer class="wrapper-page">
       <div id="footer-wrapper" class="wrapper-stretch-row">
-        <a id="gh-link" href="https://github.com/nduchin">
+        <a id="gh-link" href="https://github.com/nduchin" target="_blank">
           <img id="footer-gh-logo" class="footer-pic" src="./img/svg/media/Octicons-mark-github.svg" alt="gh_logo">
           <span>Designed by @nduchin</span>
         </a>
@@ -318,7 +344,7 @@
           <span style="margin-right: 20px;">©</span>
           <span>2022</span>
         </div>
-        <a href="https://rs.school/js-stage0/">
+        <a href="https://rs.school/js-stage0/" target="_blank">
           <img src="./img/svg/media/rs_school_js.svg" class="footer-pic" alt="rsschool_logo">
         </a>
       </div>
