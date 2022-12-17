@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+  width="370" height="220" viewBox="-10 -10 370 220" 
+  fill="none">
+  <title>Project component</title>
+  <desc>Project card. Designed and compose by @nduchin</desc>
+  <style type="text/css">
+    .dim {
+      transition: 300ms ease-in-out;
+    }
+
+    g:hover .dim {
+      fill: rgba(0, 0, 0, 30%);
+    }
+
+    text {
+      fill: #260c06;
+    }
+
+    .cap-text {
+      font-family: 'Afterglow';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 36px;
+    }
+
+    .desc-text {
+      font-family: 'Barlow';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 24px;
+    }
+  </style>
+  <g clip-path="url(#clp1)" filter="box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);">
+    <image xlink:href="./img/cranes.jpg" width="350" height="200" preserveAspectRatio="xMidYMid slice"
+      filter="url(#f1)" />
+    <rect class="dim" x="1" y="1" width="348" height="198" rx="30px" fill="rgba(0,0,0,15%)" />
+    <rect x="0" y="0" width="250" height="200" fill="rgba(205, 205, 205, 0.8)" stroke="#554747" stroke-width="2" />
+    <text class="cap-text" x="125" y="10" text-anchor="middle" alignment-baseline="hanging">
+      N / A
+    </text>
+    <text class="desc-text" x="125" y="90" text-anchor="middle" alignment-baseline="hanging">
+      <tspan x="125" dy="1rem">Current card</tspan>
+      <tspan x="125" dy="1.7rem">is empty</tspan>
+    </text>
+  </g>
+  <rect x="1" y="1" width="348" height="198" rx="30px" stroke="#554747" stroke-width="2px" />
+  <clipPath id="clp1">
+    <rect x="1" y="1" width="348" height="198" rx="30px" />
+  </clipPath>
+  <defs>
+    <filter id="f1" x="0" y="0">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" />
+    </filter>
+  </defs>
+</svg>
