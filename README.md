@@ -12,8 +12,8 @@
 
   <a href="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/cv-stage0.md">**LEARN MORE:**</a>
 
-  - [ ] Valid layout:
-    > - [ ] Should return no errors or warnings at <a href="https://validator.w3.org/">validator</a>
+  - [x] Valid layout:
+    > - [x] Should return no errors or warnings at <a href="https://validator.w3.org/">validator</a>
   - [x] Page aligns view center;
   - [x] Semantic layout:
     > - [x] page contains `header`, `main` and `footer`
@@ -41,8 +41,8 @@
 
   <a href="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/cv-stage1.md">**LEARN MORE:**</a>
 
-  - [ ] Valid layout:
-    > - [ ] Shoudl return no errors or warnings at <a href="https://validator.w3.org/">validator</a>
+  - [x] Valid layout:
+    > - [x] Shoudl return no errors or warnings at <a href="https://validator.w3.org/">validator</a>
   - [x] Page aligns view center;
   - [ ] Semantic layout:
     > - [ ] page contains `article, aside, figure, figcaption, footer, header, 
@@ -54,7 +54,7 @@
   - [ ] Adaptive layout:
     > - [ ] should display correct at any viewport width above 320px;
     > - [ ] contains adaptive menu with inner links;
-    > - [ ] smooth anchor scrolling.
+    > - [x] smooth anchor scrolling.
   - [x] Page correspond <a href="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/cv.md#%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-cv">EPAM HR department guidance</a>
   - [ ] Content requirement:
     > - [x] Contains author's photo with stright ratio;
@@ -74,6 +74,7 @@
 ---
 
 ## <a href="https://github.com/nduchin/rsschool-cv/branches">**Branches**</a>:
+
 - <a href="https://github.com/nduchin/rsschool-cv/tree/main">**MAIN**</a> - main project branch
 - <a href="https://github.com/nduchin/rsschool-cv/tree/gh-pages">**PAGES**</a> - deployment branch
 - <a href="https://github.com/nduchin/rsschool-cv/tree/rsschool-cv-html">**RSSCHOOL-CV**</a>  - html branch
@@ -85,7 +86,6 @@
 ## <a href="https://www.figma.com/file/pggQrCT6jXno7tOsK6uqcq/CV-Duchin?node-id=0%3A1&t=CzXEsWFBygMLD8IL-1">**Figma design**</a>:
 
 ### Log :
-
 - 10.12.2022 - start design
 - 11.12.2022 - complete desktop, tablet, mobile design
 - 12.12.2022 - complete components design
@@ -93,7 +93,6 @@
 
 
 ### Issues:
-
 - complete index typography
 - complete component animations
 
@@ -102,7 +101,6 @@
 ## **HTML development**:
 
 ### Log:
-
 - 11.12.2022 - complete html skeleton 
 - 12.12.2022 - complete html base structure
 - 13.12.2022 - complete html block modell
@@ -111,13 +109,12 @@
 - 14.12.2022 - complete html appearance
 - 14.12.2022 - fix BUG at index.html : rewrite contact section
 - 17.12.2022 - complete html components
-
+- 18.12.2022 - complete static code accordions
 
 ### Issues:
-
-- complete code accordions
 - complete adaptive UI
 - complete html actions/animations
+- complete interactive code accordions
 
 ---
 
@@ -139,12 +136,10 @@
   - complete projects section
 
 </details>
+- 18.12.2022 complete code section
 
 ### Issues:
-
-- complete code section
-> - add example links
-
+*nothing to do*
 
 ---
 
@@ -154,3 +149,4 @@
 - 13.12.2022 initiate page deployment
 - 14.12.2022 appearanced page deployed
 - 17.12.2022 svg components deployed
+- 18.12.2022 content deployed
