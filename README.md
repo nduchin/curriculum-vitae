@@ -2,33 +2,38 @@
 
 |<a href="https://nduchin.github.io/rsschool-cv/cv/">Deploy</a>| |<a href="#tasks">Tasks</a>| |<a href="#branches">Branches</a>| |<a href="#figma-design">Design</a>| |<a href="#html-development">HTML</a>| |<a href="#content">Content</a>|
 
-<img src="./icon.svg" alt="page_img" width="250">
+<img src="./icon.svg" alt="page_img" height="250">
 
 ---
 
-## <a href="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/cv-stage1.md">**Tasks**</a>:
+## **Tasks**:
 
 <details><summary><span style="font-size:1.3rem; font-weight: 600;">Task CV-stage0</span></summary>
 
-  <a href="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/cv-stage1.md">**LEARN MORE:**</a>
+  <a href="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/cv-stage0.md">**LEARN MORE:**</a>
 
   - [ ] Valid layout:
-    > - [ ] Shoudl return no errors or warnings at <a href="https://validator.w3.org/" target="_blank">validator</a>
-  - [ ] Semantic layout:
+    > - [ ] Should return no errors or warnings at <a href="https://validator.w3.org/">validator</a>
+  - [x] Page aligns view center;
+  - [x] Semantic layout:
     > - [x] page contains `header`, `main` and `footer`
     > - [x] page contains `nav` element
     > - [x] only one `h1` element
     > - [x] contains `h2` elements
-  - [x] Page aligns view center;
-  - [ ] Correct display at Google Chrome latest version;
-  - [ ] Page footer contains github link, year of issue, rsschool course logo.
+  - [x] Correct display at Google Chrome latest version;
+  - [x] Page footer contains github link, year of issue, rsschool course logo.
   - [x] CSS appearance:
-  - [ ] Content requirement:
+  - [x] Content requirement:
     > - [x] Contains author's photo with stright ratio, `alt` attribute;
-    > - [ ] Contains short bio, skills, education level, languages info;
+    > - [x] Contains short bio, skills, education level, languages info;
     > - [x] Contains code example;
-    > - [ ] Contains projects link-images;
-    > - [ ] CV complete in english language;
+    > - [x] Contains projects link-images;
+    > - [x] CV complete in english language;
+  - [ ] Git <code>Pull Request</code> requirement:
+    > 1. [ ] Task link
+    > 2. [ ] Page screenshot
+    > 3. [ ] Deploy link
+    > 4. [ ] Self-test list
 
 </details>
 
@@ -37,26 +42,26 @@
   <a href="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/cv-stage1.md">**LEARN MORE:**</a>
 
   - [ ] Valid layout:
-    > - [ ] Shoudl return no errors or warnings at <a href="https://validator.w3.org/" target="_blank">validator</a>
-  - [ ] Page aligns view center;
+    > - [ ] Shoudl return no errors or warnings at <a href="https://validator.w3.org/">validator</a>
+  - [x] Page aligns view center;
   - [ ] Semantic layout:
     > - [ ] page contains `article, aside, figure, figcaption, footer, header, 
     main, nav, section, h1-h6` (at least 10 of them)
   - [ ] Correct display at Google Chrome latest version;
-  - [ ] Page footer contains github link, year of issue, rsschool course logo.
+  - [x] Page footer contains github link, year of issue, rsschool course logo.
   - [x] CSS appearance:
     > - [x] at least 10 diffrent css styled elements
   - [ ] Adaptive layout:
     > - [ ] should display correct at any viewport width above 320px;
     > - [ ] contains adaptive menu with inner links;
     > - [ ] smooth anchor scrolling.
-  - [ ] Page correspond <a href="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/cv.md#%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-cv" target="_blank">EPAM HR department guidance</a>
+  - [x] Page correspond <a href="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/cv.md#%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-cv">EPAM HR department guidance</a>
   - [ ] Content requirement:
-    > - [ ] Contains author's photo with stright ratio;
-    > - [ ] Contains short bio, skills, education level, languages info;
-    > - [ ] Contains code example;
-    > - [ ] Contains projects link-images;
-    > - [ ] CV complete in english language;
+    > - [x] Contains author's photo with stright ratio;
+    > - [x] Contains short bio, skills, education level, languages info;
+    > - [x] Contains code example;
+    > - [x] Contains projects link-images;
+    > - [x] CV complete in english language;
     > - [ ] Contains 3-5 min video-cv.
   - [ ] Git <code>Pull Request</code> requirement:
     > 1. [ ] Task link
@@ -77,7 +82,7 @@
 
 ---
 
-## <a href="https://www.figma.com/file/pggQrCT6jXno7tOsK6uqcq/CV-Duchin?node-id=0%3A1&t=CzXEsWFBygMLD8IL-1" target="_blank">**Figma design**</a>:
+## <a href="https://www.figma.com/file/pggQrCT6jXno7tOsK6uqcq/CV-Duchin?node-id=0%3A1&t=CzXEsWFBygMLD8IL-1">**Figma design**</a>:
 
 ### Log :
 
@@ -110,8 +115,9 @@
 
 ### Issues:
 
-- complete html actions/animations
+- complete code accordions
 - complete adaptive UI
+- complete html actions/animations
 
 ---
 
@@ -119,19 +125,26 @@
 
 ### Log:
 - 17.12.2022 complete hard-skill elements
+- <details><summary>17.12.2022:</summary>
+
+  - complete about section
+  - complete contacts section
+  - complete skills section
+   > - delete soft-skills
+   > - complete languages
+  - complete education section
+  - complete courses section
+  - complete employment section
+  - add external links
+  - complete projects section
+
+</details>
 
 ### Issues:
-- complete about section
-- complete contacts section
-- complete skills section
-  > - complete soft-skills
-  > - complete languages
-- complete education section
-- complete courses section
-- complete employment section
+
 - complete code section
-- complete projects section
-- add external links
+> - add example links
+
 
 ---
 
