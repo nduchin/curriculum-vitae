@@ -269,7 +269,6 @@ body {
 }
 
 .list-elem>.wrapper-pillar {
-  width: 300px;
   align-items: center;
   gap: 10px;
 }
