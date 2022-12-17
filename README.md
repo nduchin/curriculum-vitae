@@ -2,7 +2,7 @@
 
 |<a href="https://nduchin.github.io/rsschool-cv/cv/">Deploy</a>| |<a href="#tasks">Tasks</a>| |<a href="#branches">Branches</a>| |<a href="#figma-design">Design</a>| |<a href="#html-development">HTML</a>| |<a href="#content">Content</a>|
 
-<img src="./icon.svg" alt="page_img" height="250">
+<img src="./prbg-cv.jpg" alt="page_img" height="250">
 
 ---
 
