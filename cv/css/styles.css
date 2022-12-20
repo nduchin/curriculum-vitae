@@ -224,35 +224,7 @@ code {
   padding-left: 300px;
 }
 
-.list-elem>.wrapper-scroll {
-  gap: 10px;
-}
-
-.ed-elem-year {
-  width: 180px;
-  text-align: center;
-}
-
-.ed-elem-name {
-  flex-grow: 1;
-  text-align: center;
-}
-
-.ed-elem-qual {
-  width: 180px;
-  text-align: center;
-}
-
-.em-elem-year {
-  width: 100px;
-  text-align: center;
-}
-
-.em-elem-name {
-  flex-grow: 1;
-}
-
-.list-elem>.wrapper-pillar {
+#header-row {
   align-items: center;
 }
 
