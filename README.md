@@ -110,6 +110,9 @@
 - 14.12.2022 - fix BUG at index.html : rewrite contact section
 - 17.12.2022 - complete html components
 - 18.12.2022 - complete static code accordions
+- 19.12.2022:
+  > - refactor styles.css (merge duplicates, sort selectors by groups).
+  > - fix index.html about text mistake.
 
 ### Issues:
 - complete adaptive UI
@@ -121,21 +124,23 @@
 ## **Content**
 
 ### Log:
+
 - 17.12.2022 complete hard-skill elements
 - <details><summary>17.12.2022:</summary>
 
-  - complete about section
-  - complete contacts section
-  - complete skills section
-   > - delete soft-skills
-   > - complete languages
-  - complete education section
-  - complete courses section
-  - complete employment section
-  - add external links
-  - complete projects section
+  > - complete about section
+  > - complete contacts section
+  > - complete skills section
+  > > - delete soft-skills
+  > > - complete languages
+  > - complete education section
+  > - complete courses section
+  > - complete employment section
+  > - add external links
+  > - complete projects section
 
 </details>
+
 - 18.12.2022 complete code section
 
 ### Issues:
