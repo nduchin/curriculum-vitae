@@ -113,9 +113,12 @@
 - 19.12.2022:
   > - refactor styles.css (merge duplicates, sort selectors by groups).
   > - fix index.html about text mistake.
+- 01.02.2022:
+  > - complete adaptive UI
+  > - rewrite skill svg applet
 
 ### Issues:
-- complete adaptive UI
+
 - complete html actions/animations
 - complete interactive code accordions
 
@@ -138,7 +141,6 @@
   > - complete employment section
   > - add external links
   > - complete projects section
-
 </details>
 
 - 18.12.2022 complete code section
@@ -152,6 +154,7 @@
 
 ### Log:
 - 13.12.2022 initiate page deployment
-- 14.12.2022 appearanced page deployed
-- 17.12.2022 svg components deployed
-- 18.12.2022 content deployed
+- 14.12.2022 appearanced page is deployed
+- 17.12.2022 svg components is deployed
+- 18.12.2022 content is deployed
+- 01.02.2022 adaptive UI is deployed
