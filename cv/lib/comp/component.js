@@ -1,12 +1,16 @@
-const list1=document.getElementsByClassName("skill-component")
-Object.keys(list1).forEach((k)=>{
-  let filename=list1[k].innerHTML
-  console.log(filename)
-  list1[k].innerHTML=`<object data="./lib/comp/skills_svg/${filename}" type="image/svg+xml"></object>`
-})
-const list2=document.getElementsByClassName("project-component")
-Object.keys(list2).forEach((k)=>{
-  let filename=list2[k].innerHTML
-  console.log(filename)
-  list2[k].innerHTML=`<object data="./lib/comp/proj_svg/${filename}" type="image/svg+xml"></object>`
-})
+async function insertComp(){
+  let skills = [];
+  skills = await (async (val)=>{
+    return await fetch('./lib/comp/skills_svg/skills.json')
+    .then((response)=>{return response.json()})
+  })();
+  const node = document.getElementsByClassName('wrapper-flex-grid')[0]
+  node.innerHTML='';
+  skills.forEach(el => {
+    node.innerHTML+=(
+      `<li><object type=\"image/svg+xml\" data=\"./lib/comp/skills_svg/skillbar.svg?${Object.keys(el).map((k)=>{return `${k}=${el[k]}`}).join(';')}\"></object></li>`
+    )
+  });
+}
+
+insertComp()

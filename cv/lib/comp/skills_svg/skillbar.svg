@@ -1,0 +1,107 @@
+<svg width="220" height="75" viewBox="0 0 220 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    g {
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+  </style>
+  <g>
+    <image id="image" href=""/>
+  </g>
+  <g>
+    <rect id="bar0" x="60" y="32.5" width="148" height="10" rx="5" fill="#606060" stroke="#404040" stroke-width="2" />
+    <rect id="bar1" x="60" y="31" width="98" height="13" rx="6.5" fill="#C0C0C0" stroke="#808080" stroke-width="2" />
+    <circle id="point" cx="160" cy="37.5" r="11" fill="#E0E0E0" stroke="#C0C0C0" stroke-width="3" />
+  </g>
+  <script type="text/javascript">
+    const PARAM = {
+      x: 60,
+      y: 37.5,
+      width: 150,
+      value: 50,
+      radius: 11,
+      image: './JavaScript.svg',
+      bar0:{
+        height: 10,
+        round:true,
+        stroke:2,
+      },
+      bar1:{
+        height: 13,
+        round:true,
+        stroke:2,
+      },
+      point:{
+        radius: 11,
+        stroke:3,
+      },
+      colors:['#606060','#404040','#C0C0C0','#808080','#E0E0E0','#C0C0C0']
+    }
+    function getHrefParam(){
+      const href = document.location.href
+      const obj = {}
+      if (href.indexOf('?')!=-1){
+        href.slice(href.indexOf('?')+1).split(';').forEach((a)=>{
+          const val = a.split('=')
+          if (val[1].indexOf(',')==-1){
+            obj[val[0]]=val[1]
+          }else{
+            obj[val[0]]=val[1].split(',')
+          }
+        })
+      }
+      return obj;
+    }
+    let par = getHrefParam()
+    Object.keys(par).forEach((k)=>{
+      PARAM[k]=par[k]
+    })
+    const bar0 = document.getElementById('bar0')
+    const bar1 = document.getElementById('bar1')
+    const point = document.getElementById('point')
+    let pointWidth = (PARAM.width-2*PARAM.radius)*PARAM.value/100+PARAM.radius
+    with(bar0){
+      setAttribute('x',PARAM.x)
+      setAttribute('y',PARAM.y-PARAM.bar0.height/2)
+      setAttribute('width',PARAM.width)
+      setAttribute('height',PARAM.bar0.height)
+      setAttribute('rx',(PARAM.bar0.round)?(PARAM.bar0.height/2):(0))
+      setAttribute('stroke-width',PARAM.bar0.stroke)
+      setAttribute('fill',PARAM.colors[0])
+      setAttribute('stroke',PARAM.colors[1])
+    }
+    with(bar1){
+      setAttribute('x',PARAM.x)
+      setAttribute('y',PARAM.y-PARAM.bar1.height/2)
+      setAttribute('width',pointWidth)
+      setAttribute('height',PARAM.bar1.height)
+      setAttribute('rx',(PARAM.bar1.round)?(PARAM.bar1.height/2):(0))
+      setAttribute('stroke-width',PARAM.bar0.stroke)
+      setAttribute('fill',PARAM.colors[2])
+      setAttribute('stroke',PARAM.colors[3])
+    }
+    with(point){
+      setAttribute('cx',PARAM.x+pointWidth)
+      setAttribute('cy',PARAM.y)
+      setAttribute('r',PARAM.point.radius)
+      setAttribute('stroke-width',PARAM.point.stroke)
+      setAttribute('fill',PARAM.colors[4])
+      setAttribute('stroke',PARAM.colors[5])
+    }
+    async function imgProc(){
+      const img = document.getElementById('image')
+      await img.setAttribute('href',PARAM.image)
+      let dRect = img.getBoundingClientRect();
+      let ratio = dRect.height/dRect.width
+      if (ratio>1){
+        img.setAttribute('height',50)
+        img.setAttribute('width',50/ratio)
+      }else{
+        img.setAttribute('width',50)
+        img.setAttribute('height',50*ratio)
+      }
+      img.setAttribute('x',10);
+      img.setAttribute('y',37.5-img.height.baseVal.value/2);
+    }
+    imgProc();
+  </script>
+</svg>

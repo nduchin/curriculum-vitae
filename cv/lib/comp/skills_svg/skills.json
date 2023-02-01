@@ -1,0 +1,43 @@
+[
+  {
+    "name": "JavaScript",
+    "value":85,
+    "colors":["#878787","#554747","#F0BE25","#E4A126","#EDE9E8","#F0BE25"],
+    "image":"./Javascript.svg"
+  },{
+    "name": "Html5",
+    "value":70,
+    "colors":["#878787","#554747","#F16529","#E44D26","#EDE9E8","#F16529"],
+    "image":"./Html5.svg"
+  },{
+    "name": "Css3",
+    "value":75,
+    "colors":["#878787","#554747","#2965F1","#264DE4","#EDE9E8","#2965F1"],
+    "image":"./Css3.svg"
+  },{
+    "name": "Corel",
+    "value":100,
+    "colors":["#878787","#554747","#85E31C","#2BB329","#EDE9E8","#85E31C"],
+    "image":"./Corel.svg"
+  },{
+    "name": "Figma",
+    "value":60,
+    "colors":["#878787","#554747","#0ACF83","#8442D9","#EDE9E8","#0ACF83"],
+    "image":"./Figma.svg"
+  },{
+    "name": "Adobe",
+    "value":95,
+    "colors":["#878787","#554747","#FF9A00","#286089","#EDE9E8","#FF9A00"],
+    "image":"./Adobe.svg"
+  },{
+    "name": "Git",
+    "value":75,
+    "colors":["#878787","#554747","#F05133","#be4128","#EDE9E8","#F05133"],
+    "image":"./Git_icon.svg"
+  },{
+    "name": "Svg",
+    "value":80,
+    "colors":["#878787","#554747","#ffb13b","#000000","#EDE9E8","#ffb13b"],
+    "image":"./svg-logo.svg"
+  }
+]
