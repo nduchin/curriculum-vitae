@@ -1,0 +1,122 @@
+@media (max-width: 1023px) {
+  h1{
+    font: var(--font-tablet-title)
+  }
+  h2{
+    font: var(--font-tablet-section-caption)
+  }
+  h3{
+    font:var(--font-mobile-second-caption)
+  }
+  .wrapper-page{
+    max-width: 768px;
+  }
+  .wrapper-nav-side{
+    display: none;
+  }
+  .wrapper-nav-header{
+    width: 100%;
+    display: block;
+  }
+  .nav-list-header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  #data-wrapper{
+    padding: 0;
+  }
+  #about{
+    gap:30px;
+  }
+  #contacts-list{
+    row-gap: 20px;
+  }
+  .cont-elem-line{
+    grid-column: 6 span;
+  }
+  .contact-line-link{
+    font: var(--font-mobile-link)
+  }
+  .ed-elem-year{
+    width: 80px;
+  }
+  .ed-elem-year-br{
+    display: inline;
+  }
+  .ed-elem-name{
+    font: var(--font-descr-24px)
+  }
+  .ed-elem-qual{
+    width: 160px;
+    font: var(--font-descr-24px-light)
+  }
+  #courses-list .list-elem::before{
+    content: none;
+  }
+  .cr-elem-name, .cr-elem-desc{
+    text-align: center;
+  }
+  .em-list-elem{
+    grid-template-columns: 80px 1fr;
+    grid-template-areas: 
+    "yr org" "pos pos" "desc desc";
+  }
+  .em-elem-name{
+    font: var(--font-descr-24px)
+  }
+}
+@media (max-width: 600px) {
+  h1{
+    font: var(--font-mobile-title)
+  }
+  h2{
+    font:var(--font-mobile-section-caption)
+  }
+  #header-row{
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .wrapper-nav-header{
+    display: none;
+  }
+  .wrapper-section{
+    padding: 20px;
+  }
+  #about-text{
+    font: var(--font-mobile-regular)
+  }
+  .sec-title-pic{
+    display: none;
+  }
+  #contacts-list{
+    grid-template-columns: repeat(4, 1fr);
+  }
+  #contacts-list>*:last-child, .cont-elem-line{
+    grid-column: 4 span;
+  }
+  .list-elem, .em-list-elem{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .list-elem>*, .em-list-elem>*{
+    width: 100%;
+  }
+  .ed-elem-year-br, .em-elem-year-br{
+    display: none;
+  }
+  .ed-elem-name{
+    font: var(--font-descr-32px-light)
+  }
+  .projects-list{
+    flex-direction: column;
+    align-items: center;
+  }
+  #footer-wrapper{
+    flex-direction: column;
+    gap: 35px;
+  }
+}

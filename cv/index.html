@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/fonts.css">
   <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/styles.mobile.css">
   <link rel="icon" type="image/x-icon" href="./img/svg/icon.svg">
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css">
   <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
@@ -16,7 +17,7 @@
 <body>
   <div class="canvas-main">
     <div class="wrapper-page">
-      <nav class="wrapper-nav">
+      <nav class="wrapper-nav-side">
         <ul id="nav-list" class="wrapper-stretch-col">
           <li>
             <a href="#home" class="nav_element">
@@ -100,6 +101,37 @@
             </div>
             <h1 class="title">Nikita Dukhin</h1>
           </div>
+          <nav class="wrapper-nav-header">
+            <ul class="wrapper-line nav-list-header">
+              <li><a href="#home">
+                <img class="nav-elem-thumb" src="./img/svg/page/home_svg_dark.svg" alt="home_svg_dark">
+              </a></li>
+              <li><a href="#about">
+                <img class="nav-elem-thumb" src="./img/svg/page/paper_svg_dark.svg" alt="home_svg_dark">
+              </a></li>
+              <li><a href="#contacts">
+                <img class="nav-elem-thumb" src="./img/svg/page/letter_svg_dark.svg" alt="home_svg_dark">
+              </a></li>
+              <li><a href="#skills">
+                <img class="nav-elem-thumb" src="./img/svg/page/hammer_svg_dark.svg" alt="home_svg_dark">
+              </a></li>
+              <li><a href="#education">
+                <img class="nav-elem-thumb" src="./img/svg/page/hat_svg_dark.svg" alt="home_svg_dark">
+              </a></li>
+              <li><a href="#courses">
+                <img class="nav-elem-thumb" src="./img/svg/page/books_svg_dark.svg" alt="home_svg_dark">
+              </a></li>
+              <li><a href="#employment">
+                <img class="nav-elem-thumb" src="./img/svg/page/tie_svg_dark.svg" alt="home_svg_dark">
+              </a></li>
+              <li><a href="#code">
+                <img class="nav-elem-thumb" src="./img/svg/page/code_svg_dark.svg" alt="home_svg_dark">
+              </a></li>
+              <li><a href="#projects">
+                <img class="nav-elem-thumb" src="./img/svg/page/gear_svg_dark.svg" alt="home_svg_dark">
+              </a></li>
+            </ul>
+          </nav>
         </header>
         <main class="main">
           <section id="about" class="wrapper-section">
@@ -201,7 +233,7 @@
               <ul id="education-list" class="wrapper-scroll list">
                 <li class="wrapper-scroll list-elem-wrap">
                   <div class="wrapper-line list-elem">
-                    <p class="ed-elem-year">2018 - 2021</p>
+                    <p class="ed-elem-year">2018 <br class="ed-elem-year-br">-<br class="ed-elem-year-br"> 2021</p>
                     <p class="ed-elem-name">Non-profit organization of high education «Moskow Art-Industrial Institute»
                     </p>
                     <p class="ed-elem-qual">Bachelor of environment design</p>
@@ -223,7 +255,7 @@
                   <div class="wrapper-line list-elem">
                     <div class="wrapper-scroll">
                       <p class="cr-elem-name">RSSchool JavaScript/Front-End Stage0 <span
-                          style="opacity: 30%; font-weight: 700;">in progress</span></p>
+                          style="opacity: 30%; font-weight: 700; white-space: nowrap;">in progress</span></p>
                       <p class="cr-elem-desc">Elementary class of JS/FE</p>
                     </div>
                   </div>
@@ -241,14 +273,11 @@
             <div class="wrapper-section-content">
               <ul id="employment-list" class="wrapper-scroll list">
                 <li class="wrapper-scroll list-elem-wrap">
-                  <div class="wrapper-line list-elem">
-                    <p class="em-elem-year">2018 - 2022</p>
-                    <p class="em-elem-name">Non-profit organization of high education «Moskow Art-Industrial Institute»
-                    </p>
-                    <div class="wrapper-pillar">
-                      <p class="em-elem-pos-name">College lecturer</p>
-                      <p class="em-elem-pos-desc">Lecturer of computer technology in design.</p>
-                    </div>
+                  <div class="wrapper-line em-list-elem">
+                    <p class="em-elem-year">2018 <br class="em-elem-year-br">-<br class="em-elem-year-br"> 2022</p>
+                    <p class="em-elem-name">Non-profit organization of high education «Moskow Art-Industrial Institute»</p>
+                    <p class="em-elem-pos-name">College lecturer</p>
+                    <p class="em-elem-pos-desc">Lecturer of computer technology in design.</p>
                   </div>
                 </li>
               </ul>
@@ -266,7 +295,7 @@
                 <div class="code-lable">
                   <p class="code-caption">Codewars task <a
                     href="https://www.codewars.com/kata/5262119038c0985a5b00029f" target="_blank"
-                    rel="noopener noreferrer" style="text-decoration: underline;">Gap in primes</a></p>
+                    rel="noopener noreferrer" style="text-decoration: underline;">Is a number prime?</a></p>
                   <img src="./img/svg/page/bracket_show.svg" width="59" alt="expand_logo">
                 </div>
                 <div class="code-container">
@@ -284,7 +313,7 @@
                 <div class="code-lable">
                   <p class="code-caption">Codewars task <a
                       href="https://www.codewars.com/kata/561e9c843a2ef5a40c0000a4" target="_blank"
-                      rel="noopener noreferrer" style="text-decoration: underline;">Is a number prime?</a></p>
+                      rel="noopener noreferrer" style="text-decoration: underline;">Gap in primes</a></p>
                   <img src="./img/svg/page/bracket_show.svg" width="59" alt="expand_logo">
                 </div>
                 <div class="code-container">
@@ -321,7 +350,7 @@
               </div>
             </div>
             <div class="wrapper-section-content">
-              <ul class="wrapper-flex-grid">
+              <ul class="wrapper-flex-grid projects-list">
                 <li class="project-component">proj1.svg</li>
                 <li class="project-component">proj_na.svg</li>
                 <li class="project-component">proj_na.svg</li>
@@ -342,7 +371,7 @@
         </a>
         <div>
           <span style="margin-right: 20px;">©</span>
-          <span>2022</span>
+          <span>2023</span>
         </div>
         <a href="https://rs.school/js-stage0/" target="_blank">
           <img src="./img/svg/media/rs_school_js.svg" class="footer-pic" alt="rsschool_logo">
