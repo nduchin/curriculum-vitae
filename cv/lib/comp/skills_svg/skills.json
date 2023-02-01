@@ -18,17 +18,17 @@
     "name": "Corel",
     "value":100,
     "colors":["#878787","#554747","#85E31C","#2BB329","#EDE9E8","#85E31C"],
-    "image":"./Corel.svg"
+    "image":"./corel.svg"
   },{
     "name": "Figma",
     "value":60,
     "colors":["#878787","#554747","#0ACF83","#8442D9","#EDE9E8","#0ACF83"],
-    "image":"./Figma.svg"
+    "image":"./figma.svg"
   },{
     "name": "Adobe",
     "value":95,
     "colors":["#878787","#554747","#FF9A00","#286089","#EDE9E8","#FF9A00"],
-    "image":"./Adobe.svg"
+    "image":"./adobe.svg"
   },{
     "name": "Git",
     "value":75,
