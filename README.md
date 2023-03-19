@@ -1,6 +1,6 @@
 # **CV Nikita Dukhin**
 
-|<a href="https://nduchin.github.io/rsschool-cv/cv/">Deploy</a>| |<a href="#tasks">Tasks</a>| |<a href="#branches">Branches</a>| |<a href="#figma-design">Design</a>| |<a href="#html-development">HTML</a>| |<a href="#content">Content</a>|
+|<a href="https://nduchin.github.io/rsschool-cv/">Deploy</a>| |<a href="#tasks">Tasks</a>| |<a href="#branches">Branches</a>| |<a href="#figma-design">Design</a>| |<a href="#html-development">HTML</a>| |<a href="#content">Content</a>|
 
 <img src="./prbg-cv.jpg" alt="page_img" height="250">
 
@@ -150,7 +150,7 @@
 
 ---
 
-## <a href="https://nduchin.github.io/rsschool-cv/cv/">**Deployment**</a>:
+## <a href="https://nduchin.github.io/rsschool-cv/">**Deployment**</a>:
 
 ### Log:
 - 13.12.2022 initiate page deployment
