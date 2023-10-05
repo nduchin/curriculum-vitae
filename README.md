@@ -24,7 +24,7 @@
   - [x] Page footer contains github link, year of issue, rsschool course logo.
   - [x] CSS appearance:
   - [x] Content requirement:
-    > - [x] Contains author's photo with stright ratio, `alt` attribute;
+    > - [x] Contains author's photo with straight ratio, `alt` attribute;
     > - [x] Contains short bio, skills, education level, languages info;
     > - [x] Contains code example;
     > - [x] Contains projects link-images;
@@ -42,7 +42,7 @@
   <a href="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/cv-stage1.md">**LEARN MORE:**</a>
 
   - [x] Valid layout:
-    > - [x] Shoudl return no errors or warnings at <a href="https://validator.w3.org/">validator</a>
+    > - [x] Should return no errors or warnings at <a href="https://validator.w3.org/">validator</a>
   - [x] Page aligns view center;
   - [ ] Semantic layout:
     > - [ ] page contains `article, aside, figure, figcaption, footer, header, 
@@ -50,14 +50,14 @@
   - [ ] Correct display at Google Chrome latest version;
   - [x] Page footer contains github link, year of issue, rsschool course logo.
   - [x] CSS appearance:
-    > - [x] at least 10 diffrent css styled elements
+    > - [x] at least 10 different css styled elements
   - [ ] Adaptive layout:
     > - [ ] should display correct at any viewport width above 320px;
     > - [ ] contains adaptive menu with inner links;
     > - [x] smooth anchor scrolling.
   - [x] Page correspond <a href="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/cv.md#%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-cv">EPAM HR department guidance</a>
   - [ ] Content requirement:
-    > - [x] Contains author's photo with stright ratio;
+    > - [x] Contains author's photo with straight ratio;
     > - [x] Contains short bio, skills, education level, languages info;
     > - [x] Contains code example;
     > - [x] Contains projects link-images;
@@ -103,7 +103,7 @@
 ### Log:
 - 11.12.2022 - complete html skeleton 
 - 12.12.2022 - complete html base structure
-- 13.12.2022 - complete html block modell
+- 13.12.2022 - complete html block model
 - 13.12.2022 - fix html/css wrapper class
 - 14.12.2022 - complete html typography 
 - 14.12.2022 - complete html appearance
@@ -154,7 +154,7 @@
 
 ### Log:
 - 13.12.2022 initiate page deployment
-- 14.12.2022 appearanced page is deployed
+- 14.12.2022 styled page is deployed
 - 17.12.2022 svg components is deployed
 - 18.12.2022 content is deployed
 - 01.02.2022 adaptive UI is deployed
