@@ -72,9 +72,9 @@
 </details>
 <details><summary><span style="font-size:1.3rem; font-weight: 600;">Typescript and webpack migration</span></summary>
 
-  - [ ] Preset:
-    > - [ ] Install all requirements into the repository
-    > - [ ] Install and fine-tune mocha for typescript
+  - [x] Preset:
+    > - [x] Install all requirements into the repository
+    > - [x] Install and fine-tune mocha for typescript
   - [ ] Application development:
     > - [ ] Write test items for application
     > - [ ] Write interfaces according to tests
@@ -133,14 +133,18 @@
 - 19.12.2022:
   > - refactor styles.css (merge duplicates, sort selectors by groups).
   > - fix index.html about text mistake.
-- 01.02.2022:
+- 01.02.2023:
   > - complete adaptive UI
   > - rewrite skill svg applet
+- 06.10.2023: set-up new environment (webpack, typescript, eslint, mocha)
 
 ### Issues:
 
-- complete html actions/animations
-- complete interactive code accordions
+- Develope ts application model
+- Migrate page to ts-application
+
+- Complete html actions/animations
+- Complete interactive code accordions
 
 ---
 
@@ -166,7 +170,8 @@
 - 18.12.2022 complete code section
 
 ### Issues:
-*nothing to do*
+
+- update info (by 01.10.2023)
 
 ---
 
@@ -177,4 +182,4 @@
 - 14.12.2022 styled page is deployed
 - 17.12.2022 svg components is deployed
 - 18.12.2022 content is deployed
-- 01.02.2022 adaptive UI is deployed
+- 01.02.2023 adaptive UI is deployed
