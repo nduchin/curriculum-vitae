@@ -70,6 +70,25 @@
     > 4. [ ] Self-test list
 
 </details>
+<details><summary><span style="font-size:1.3rem; font-weight: 600;">Typescript and webpack migration</span></summary>
+
+  - [ ] Preset:
+    > - [ ] Install all requirements into the repository
+    > - [ ] Install and fine-tune mocha for typescript
+  - [ ] Application development:
+    > - [ ] Write test items for application
+    > - [ ] Write interfaces according to tests
+    > - [ ] Write classes
+    > - [ ] Write HTML => AppElement model compiler
+  - [ ] Style migration:
+    > - [ ] Rewrite styles with scss
+  - [ ] Main migration:
+    > - [ ] Migrate main page
+    > - [ ] Migrate nav menu (include adaptive layout)
+    > - [ ] Migrate special elements (accordions, card, etc.)
+
+</details>
+
 
 ---
 
@@ -80,6 +99,7 @@
 - <a href="https://github.com/nduchin/rsschool-cv/tree/rsschool-cv-html">**RSSCHOOL-CV**</a>  - html branch
 - <a href="https://github.com/nduchin/rsschool-cv/tree/cv-html-css">**HTML-CSS**</a> - css layout branch
 - <a href="https://github.com/nduchin/rsschool-cv/tree/cv-html-comp">**COMPONENT**</a> - component branch
+- <a href="https://github.com/nduchin/rsschool-cv/tree/migration">**TYPESCRIPT MIGRATION**</a> - migration branch
 
 ---
 
