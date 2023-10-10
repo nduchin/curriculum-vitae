@@ -1,2 +1,4 @@
 **/*.js
-**/*.spec.ts
+
+# disable eslint for tests if thows errors
+# **/*.spec.ts
