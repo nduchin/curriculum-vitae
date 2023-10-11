@@ -10,9 +10,9 @@ interface AppElement {
 }
 
 interface AppBlockElement extends AppElement {
-  children: AppElement[]
+  get children(): readonly AppElement[]
   apply: (...elements: AppElement[]) => void
-  detach: (element: AppElement) => void
+  detach: (...element: AppElement[]) => void
   dropChildren: () => void
 }
 

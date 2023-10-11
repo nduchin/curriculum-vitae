@@ -10,31 +10,4 @@ class Application implements App {
   }
 }
 
-class Element implements AppElement {
-  application: App | null
-  parent: AppElement | null
-  private _active: boolean
-  constructor (application?: App, parent?: AppElement) {
-    this.application = application ?? null
-    this.parent = parent ?? null
-    this._active = true
-  }
-
-  show (): void {
-    this._active = true
-  }
-
-  hide (): void {
-    this._active = false
-  }
-
-  toggle (): void {
-    this._active = !this._active
-  }
-
-  get active (): boolean {
-    return this._active
-  }
-}
-
-export { Application, Element }
+export { Application }
