@@ -1,7 +1,7 @@
 import type { AppElement } from './AppElement'
 
 interface App {
-  content: AppElement
+  content: AppElement | null
   scripts: Record<string, AppScript>
 };
 

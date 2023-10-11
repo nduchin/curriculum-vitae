@@ -1,10 +1,9 @@
 import { type AppDataTypeMap } from './AppData'
-import type { AppEvents, App } from './App'
+import type { App } from './App'
 
 interface AppElement {
-  application: App
-  parent?: AppElement
-  events: AppEvents
+  application: App | null
+  parent: AppElement | null
   show: () => void
   hide: () => void
   toggle: () => void
