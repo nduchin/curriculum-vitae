@@ -1,7 +1,9 @@
 import type { AppElement } from './AppElement'
+import { type Observer } from './Observer'
 
 interface App {
-  content: AppElement | null
+  rootElement: AppElement | null
+  elements: Observer<AppElement>
   scripts: Record<string, AppScript>
 };
 

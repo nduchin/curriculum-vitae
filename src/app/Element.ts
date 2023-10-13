@@ -1,50 +1,50 @@
-import { type App } from '../interfaces/App';
-import { AppBlockElement, type AppElement } from '../interfaces/AppElement';
+import type * as InterfaceApp from '../interfaces/App'
+import type * as InterfaceElement from '../interfaces/AppElement'
 
-class Element implements AppElement {
-  application: App | null;
-  parent: AppElement | null;
-  private _active: boolean;
-  constructor(application?: App, parent?: AppElement) {
-    this.application = application ?? null;
-    this.parent = parent ?? null;
-    this._active = true;
+class Element implements InterfaceElement.AppElement {
+  application: InterfaceApp.App | null
+  parent: InterfaceElement.AppElement | null
+  private _active: boolean
+  constructor (application?: InterfaceApp.App, parent?: InterfaceElement.AppElement) {
+    this.application = application ?? null
+    this.parent = parent ?? null
+    this._active = true
   }
 
-  show(): void {
-    this._active = true;
+  show (): void {
+    this._active = true
   }
 
-  hide(): void {
-    this._active = false;
+  hide (): void {
+    this._active = false
   }
 
-  toggle(): void {
-    this._active = !this._active;
+  toggle (): void {
+    this._active = !this._active
   }
 
-  get active(): boolean {
-    return this._active;
+  get active (): boolean {
+    return this._active
   }
 }
 
-class BlockElement extends Element implements AppBlockElement {
-  private _children: AppElement[];
-  constructor(application?: App, parent?: AppElement, children?: AppElement[]) {
+class BlockElement extends Element implements InterfaceElement.AppBlockElement {
+  private _children: InterfaceElement.AppElement[]
+  constructor (application?: InterfaceApp.App, parent?: InterfaceElement.AppElement, children?: InterfaceElement.AppElement[]) {
     super(application, parent)
     this._children = children ?? []
   }
 
-  get children(): readonly AppElement[] { return this._children }
+  get children (): readonly InterfaceElement.AppElement[] { return this._children }
 
-  apply(...elements: AppElement[]): void { 
+  apply (...elements: InterfaceElement.AppElement[]): void {
     this._children.push(...elements)
     elements.forEach((elem) => {
       elem.parent = this
     })
   }
 
-  detach(...elements: AppElement[]): void {
+  detach (...elements: InterfaceElement.AppElement[]): void {
     elements.forEach((elem) => {
       if (this._children.includes(elem)) {
         this._children.splice(this._children.indexOf(elem), 1)
@@ -55,8 +55,8 @@ class BlockElement extends Element implements AppBlockElement {
     })
   }
 
-  dropChildren():void {
-    this._children.forEach((elem) => {elem.parent = null})
+  dropChildren (): void {
+    this._children.forEach((elem) => { elem.parent = null })
     this._children = []
   };
 }
